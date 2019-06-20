@@ -1,7 +1,7 @@
 <li  [ngClass]="{
                 'list-group-item': true ,
-                'list-group-item-success' : loveIt >0 ,
-                'list-group-item-danger' : loveIt < 0
+                'list-group-item-success' : loveIts >0 ,
+                'list-group-item-danger' : loveIts < 0
                 }" >
 
   <div class="row">
@@ -9,9 +9,9 @@
       <h2 [ngStyle]="{
         'float-right' : true,
         'badge badge-pill' : true,
-        'badge-success' : loveIt > 0 ,
-        'badge-danger' : loveIt < 0,
-        'badge-secondary' : loveIt == 0,
+        'badge-success' : loveIts > 0 ,
+        'badge-danger' : loveIts < 0,
+        'badge-secondary' : loveIts == 0,
         'ml-3' : true
       }"> {{title}} </h2>
     </div>
